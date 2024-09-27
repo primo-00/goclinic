@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.contact-info {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0288d1;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0277bd;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    vertical-align: middle;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.find-doctor {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.find-doctor form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.find-doctor label {
+    flex-basis: 100%;
+}
+
+.find-doctor input, .find-doctor select {
+    flex-basis: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.find-doctor button {
+    padding: 10px 20px;
+    background-color: #0288d1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.find-doctor button:hover {
+    background-color: #0277bd;
+}
+
+footer {
+    background-color: #0288d1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
